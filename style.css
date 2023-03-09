@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    flex-direction: row;
 }
 #left{
     display: flex;
@@ -13,37 +14,45 @@
     justify-content: space-around;
     font: 1em sans-serif;
     color: gray;
+    flex-direction: row;    
 }
 #right{
     display: flex;
 }
 #banner{
     position: relative;
+    display: flex;
 }
 #banner_h1{
     display: flex;
     font-size: 30px;
-    height: 120px;
     font: 1.7em sans-serif;
-    color: rgb(23, 23, 23);
+    color: rgba(23, 23, 23, 0.825);
+    position: relative;
+    bottom: 30px;
 }
 #banner_p{
     display: flex;
-    font-size: 20px;
-    height: 100px;
-    font: 1.2em sans-serif;
+    font-size: 30px;
+    font: 1.3em sans-serif;
+    color: rgba(94, 92, 92, 0.847);
     position: relative;
-    bottom: 30px;
-    color: rgb(94, 92, 92);
+    bottom: 70px;
 }
 #noidung{
-    display: flex;
     height: 300px;
     position: absolute;
-    bottom: 50px;
-    left: 120px;
+    bottom: 10px;
+    left: 100px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
+}
+#noidung_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    align-content: space-around;
 }
 #sort{
     display: flex;
@@ -53,12 +62,12 @@
     display: flex;
     justify-content: space-around;
     width: 50%;
-    color: rgb(55, 183, 117);
+    color: rgb(14, 124, 67);
     font-size: 20px;
     font: 1em sans-serif;
 }
 #products{
-    background-color: rgb(55, 183, 117);
+    background-color: rgb(14, 124, 67);
     color: white;
     border-radius: 5px;
     padding-left: 30px;
@@ -132,4 +141,26 @@
 #center_thir{
     display: flex;
     justify-content: space-around;
+}
+#center_tag{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40px;
+}
+.number{
+    position: relative;
+    
+    font-size: 17px;
+    color: rgb(127, 115, 115);
+    padding: 8px;
+}
+.number:hover{
+    color: green;
+    padding: 8px;
+    background-color: rgb(218, 229, 218);
+    border-radius: 50%;
 }
