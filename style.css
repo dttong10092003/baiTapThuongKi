@@ -1,0 +1,135 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#left{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    font: 1em sans-serif;
+    color: gray;
+}
+#right{
+    display: flex;
+}
+#banner{
+    position: relative;
+}
+#banner_h1{
+    display: flex;
+    font-size: 30px;
+    height: 120px;
+    font: 1.7em sans-serif;
+    color: rgb(23, 23, 23);
+}
+#banner_p{
+    display: flex;
+    font-size: 20px;
+    height: 100px;
+    font: 1.2em sans-serif;
+    position: relative;
+    bottom: 30px;
+    color: rgb(94, 92, 92);
+}
+#noidung{
+    display: flex;
+    height: 300px;
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#sort{
+    display: flex;
+    margin-top: 60px;
+}
+#sort_left{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: rgb(55, 183, 117);
+    font-size: 20px;
+    font: 1em sans-serif;
+}
+#products{
+    background-color: rgb(55, 183, 117);
+    color: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.padding{
+    padding: 20px;
+}
+#sort_right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+#center{
+    display: flex;
+    flex-direction: column;
+}
+#center_one{
+    display: flex;
+    justify-content: space-around;
+}
+.center_gia{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 22px;
+}
+.best_seller{
+    float: right;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(217, 176, 100);
+    border-radius: 15px;
+    color: rgb(128, 84, 9);
+}
+.price_big{
+    font-size: 40px;
+}
+.price_small{
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    color: gray;
+}
+.img_thanhtoan{
+    height: 45px;
+    margin-top: 20px;
+}
+/* .center_one_one{
+    display: flex;
+    flex-direction: column;
+} */
+
+.best_sel_content{
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+.product_title{
+   font-size: 22px;
+}
+.gray{
+    color: rgb(54, 52, 52);
+}
+#center_sec{
+    display: flex;
+    justify-content: space-around;
+}
+#center_thir{
+    display: flex;
+    justify-content: space-around;
+}
