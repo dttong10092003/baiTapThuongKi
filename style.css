@@ -247,3 +247,23 @@
 .social_network{
     margin-right: 15px;
 }
+#search_btn_one{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1px;
+    background-color: #fff;
+    border: none;
+    color: rgb(204, 202, 202);
+}
+#search_txt{
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 0px 0px 25px;
+}
+#search_btn_two{
+    position: relative;
+    left: 28px;
+    background-color: #fff;
+    border: none;
+    color: rgb(204, 202, 202);
+}
